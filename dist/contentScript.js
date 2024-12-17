@@ -12808,7 +12808,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".overlayCard {\n  position: fixed;\n  left: 4%;\n  top: 15%;\n  max-width: 240px;\n  max-height: 240px;\n  background-color: #f5f5f5 !important;\n  z-index: 99999;\n}\n", "",{"version":3,"sources":["webpack://./src/contentScript/contentScript.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,QAAQ;EACR,QAAQ;EACR,gBAAgB;EAChB,iBAAiB;EACjB,oCAAoC;EACpC,cAAc;AAChB","sourcesContent":[".overlayCard {\n  position: fixed;\n  left: 4%;\n  top: 15%;\n  max-width: 240px;\n  max-height: 240px;\n  background-color: #f5f5f5 !important;\n  z-index: 99999;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".overlayCard {\n  position: fixed;\n  right: 4%;\n  top: 15%;\n  max-width: 240px;\n  max-height: 350px;\n  background-color: #f5f5f5 !important;\n  z-index: 99999;\n}\n", "",{"version":3,"sources":["webpack://./src/contentScript/contentScript.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,SAAS;EACT,QAAQ;EACR,gBAAgB;EAChB,iBAAiB;EACjB,oCAAoC;EACpC,cAAc;AAChB","sourcesContent":[".overlayCard {\n  position: fixed;\n  right: 4%;\n  top: 15%;\n  max-width: 240px;\n  max-height: 350px;\n  background-color: #f5f5f5 !important;\n  z-index: 99999;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

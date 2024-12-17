@@ -5,6 +5,7 @@ import WeatherCard from "../components/WeatherCard/WeatherCard";
 import { getStoredOptions, LocalStrorageOptions } from "../utils/storage";
 import { Messages } from "../utils/messages";
 import "./contentScript.css";
+
 const App: React.FC<{}> = () => {
   const [options, setOptions] = useState<LocalStrorageOptions | null>(null);
   const [isActive, setIsActive] = useState<boolean>(false);
